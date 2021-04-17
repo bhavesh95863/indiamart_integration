@@ -1,0 +1,93 @@
+{
+ "creation": "2021-04-17 22:16:33.438309",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "url",
+  "key",
+  "mobile_no",
+  "add_source_for_india_mart",
+  "sync_section_section",
+  "from_date",
+  "sync_lead",
+  "column_break_8",
+  "to_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "Url"
+  },
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "label": "Key"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "description": "This Button To Create India Mart Source If Not Available",
+   "fieldname": "add_source_for_india_mart",
+   "fieldtype": "Button",
+   "label": "Add Source For India Mart"
+  },
+  {
+   "fieldname": "sync_section_section",
+   "fieldtype": "Section Break",
+   "label": "Sync Section"
+  },
+  {
+   "default": "Today",
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "sync_lead",
+   "fieldtype": "Button",
+   "label": "Sync Lead"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-04-17 22:16:33.438309",
+ "modified_by": "Administrator",
+ "module": "Indiamart Integration",
+ "name": "IndiaMart Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
